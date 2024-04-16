@@ -4,7 +4,7 @@ import {
   markNote,
   unmarkNote,
 } from '../redux/actions';
-import { FaToggleOn, FaToggleOff, FaTrash, FaCheck, FaTimes } from 'react-icons/fa';
+import { FaTrash, FaCheck, FaTimes } from 'react-icons/fa';
 
 const TodoItem = ({ note, index }) => {
   const dispatch = useDispatch();
