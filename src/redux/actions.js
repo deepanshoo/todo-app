@@ -1,4 +1,4 @@
-import { ADD_NOTE, DELETE_NOTE, MARK_COMPLETED, MARK_INCOMPLETED } from "./action.Types";
+import { ADD_NOTE, DELETE_NOTE, MARK_COMPLETED, MARK_INCOMPLETED } from "./actionTypes";
 
 export const addNote=(text)=>({
     type: ADD_NOTE,
